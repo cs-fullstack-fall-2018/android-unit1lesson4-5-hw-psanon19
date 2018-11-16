@@ -1,30 +1,30 @@
-# android_unit2lesson3_hw
+# android_unit1lesson4.5_hw
 
 ### Question 1
 
-Which constructor method do you use to create an implicit Intent to launch a camera app?
+Which of the following statements about a RecyclerView is false? Choose one.
 
-1) new Intent()
-2) new Intent(Context context, Class<?> class)
-3) new Intent(String action, Uri uri)
-4) new Intent(String action)
+1) A RecyclerView is a more resource-efficient way to display scrollable lists.
+2) You need to provide a layout for just one item of the list.
+3) All list items look the same.
+4) You don't need a layout manager with a RecyclerView to handle the hierarchy and layout of View elements.
 
 
 ### Question 2
 
-When you create an implicit Intent object, which of the following is true?
+Which of the following is the primary component you need to provide to an adapter a View item and its position within a RecyclerView? Choose one.
 
-1) Don't specify the specific Activity or other component to launch.
-2) Add an Intent action or Intent categories (or both).
-3) Resolve the Intent with the system before calling startActivity() or startActivityforResult().
-4) All of the above.
+1) RecyclerView
+2) RecyclerView.Adapter
+3) RecyclerView.ViewHolder
+4) AppCompatActivity
 
 
 ### Question 3
 
-Which Intent action do you use to take a picture with a camera app?
+Which interface do you need to implement in order to listen and respond to user clicks in a RecyclerView? Choose one.
 
-1) Intent takePicture = new Intent(Intent.ACTION_VIEW);
-2) Intent takePicture = new Intent(Intent.ACTION_MAIN);
-3) Intent takePicture = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-4) Intent takePicture = new Intent(Intent.ACTION_GET_CONTENT);
+1) View.onClickListener
+2) RecyclerView.Adapter
+3) RecyclerView.ViewHolder
+4) View.OnKeyListener
